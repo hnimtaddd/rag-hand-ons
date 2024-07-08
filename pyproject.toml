@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "qa-rag"
+version = "0.1.0"
+description = ""
+authors = ["Dat Nguyen <itn.dat.nguyen@grabtaxi.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.14"
+langchain-core = "^0.2.11"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.6"
+langchain-chroma = "^0.1.2"
+markdown = "^3.6"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
